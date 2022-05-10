@@ -1,6 +1,6 @@
 ﻿namespace hello_CS
 {
-    partial class PhotoColour
+    partial class PhotoViewer
     {
         /// <summary>
         ///  Required designer variable.
@@ -137,7 +137,7 @@
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            this.openFileDialog1.Filter = "JPEG Files (*.jpg)|*.jpg|PNG Files (*.png)|*.png|BMP Files (*.bmp)|*.bmp|All file" +
+            this.openFileDialog1.Filter = "JPEG Files (*.jpg)|*.jpg|PNG Files (*.png)|*.png|BMP Files (*.bmp)|*.bmp|WEBP Files (*.webp)|All file" +
     "s (*.*)|*.*";
             this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
@@ -147,8 +147,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1453, 774);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Name = "PhotoColour";
-            this.Text = "PhotoColour";
+            this.Name = "PhotoViewer";
+            this.Text = "PhotoViewer";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
