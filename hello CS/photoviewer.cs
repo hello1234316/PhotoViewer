@@ -2,7 +2,7 @@ namespace hello_CS
 {
     public partial class PhotoColour : Form
     {
-        public PhotoColour()
+        public PhotoViewer()
         {
             InitializeComponent();
         }
